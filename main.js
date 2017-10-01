@@ -17,10 +17,10 @@ $('#sign-out').click(function () {
     firebase.auth().signOut()
 })
 
-
 firebase.auth().onAuthStateChanged(function (user) {
     console.log(user)
     window.user = user;
+    $("#auth-data").html('<pre>' + JSON.stringify(user, undefined, 2)+ '</pre>')
     if (window.user) {
         $('#sign-in').hide()
         $('#sign-out').show()
