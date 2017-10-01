@@ -1,0 +1,28 @@
+[debug] [2017-10-01T21:44:43.988Z] ----------------------------------------------------------------------
+[debug] [2017-10-01T21:44:43.991Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-10-01T21:44:43.991Z] CLI Version:   3.12.0
+[debug] [2017-10-01T21:44:43.991Z] Platform:      darwin
+[debug] [2017-10-01T21:44:43.992Z] Node Version:  v6.11.3
+[debug] [2017-10-01T21:44:43.992Z] Time:          Sun Oct 01 2017 14:44:43 GMT-0700 (PDT)
+[debug] [2017-10-01T21:44:43.993Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-10-01T21:44:44.009Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-10-01T21:44:44.009Z] > authorizing via signed-in user
+[debug] [2017-10-01T21:44:44.012Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fb-chatroom  
+ Sun Oct 01 2017 14:44:44 GMT-0700 (PDT)
+[debug] [2017-10-01T21:44:44.622Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-01T21:44:44.624Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fb-chatroom/tokens  
+ Sun Oct 01 2017 14:44:44 GMT-0700 (PDT)
+[debug] [2017-10-01T21:44:45.158Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jonathanarellano/repos/tutorials/tutorial-firebase-auth'...
+[info] 
+[debug] [2017-10-01T21:44:45.165Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fb-chatroom  
+ Sun Oct 01 2017 14:44:45 GMT-0700 (PDT)
+[debug] [2017-10-01T21:44:45.644Z] <<< HTTP RESPONSE 200
+[debug] [2017-10-01T21:44:45.645Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/482504856972/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 14:44:45 GMT-0700 (PDT)
+[debug] [2017-10-01T21:44:46.174Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: /
+[info] ✔  hosting: Local server: http://localhost:5000
+
